@@ -1,0 +1,38 @@
+a{
+    color: #ff0000;
+}
+
+a:hover{
+    color: #f6fe00;
+}
+
+a:visited{
+    color: #00ff00;
+}
+
+#division1{
+    background-color: #717171;
+}
+
+.span1{
+    color: #a40101;
+}
+
+.classes{
+    color: #343a14;
+    background-color: #cd8aff;
+}
+
+h2{
+    background-color: #82bdff;
+    color: #401611;
+}
+
+h1{
+    color: #00021d;
+}
+
+h4{
+    color: #462e59;
+    background-color: #ffff3b;
+}
