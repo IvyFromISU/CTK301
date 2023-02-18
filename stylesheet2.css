@@ -1,0 +1,33 @@
+body{
+    font-family: sans-serif, Arial, Helvetica;
+    background-image: url(perfectlypurple.jpg)
+}
+
+.msai{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+#iodw{
+    text-align: center;
+}
+
+#njef{
+    text-align: justify;
+}
+
+.fineoa{
+    border: 8px solid black;
+    padding: 15px;
+    background-color: yellow;
+}
+
+a{
+    color: #ffe033;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ed7f2f;
+}
