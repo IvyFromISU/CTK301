@@ -1,0 +1,103 @@
+#brick{
+    background-color: white;
+    width: 960px;
+    border: 5px solid black;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+header{
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    background-color: black;
+    grid-column: span 4;
+    margin: 20px 20px 0 20px;
+    padding-left: 20px;
+}
+
+h1{
+    font-weight: normal;
+}
+
+nav{
+    grid-column: span 1;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav li{
+    width: 200px;
+}
+
+nav li a{
+    display: block;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+nav li a:hover{
+    background-color: maroon;
+}
+
+main{
+    grid-column: span 3;
+    margin-right: 10px;
+}
+
+main img{
+    float: left;
+    border: 5px solid black;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+h2{
+    font-family: Helvetica, Arial, sans-serif;
+    border-bottom: 5px solid black;
+    padding-bottom: 5px;
+}
+
+main p{
+    font-family: Georgia, Times, serif;
+    text-align: justify;
+}
+
+.wall{
+    font-weight: bold;
+}
+
+main a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer{
+    grid-column: span 4;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-style: italic;
+    background-color: red;
+    color: white;
+    text-align: center;
+    border-top: 5px solid black;
+    padding: 0 20px 0 20px;
+}
+
+body{
+    background-image: url(a62.png);
+}
