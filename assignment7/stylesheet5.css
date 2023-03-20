@@ -1,0 +1,135 @@
+#box{
+    width: 960px;
+    border: 5px solid blue;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+header{
+    grid-column: span 6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    background-image: linear-gradient(to bottom, #0066ff, #0f52e9, #173ed4, #1a29be, #1b0ea8);
+    padding: 10px;
+}
+
+header a{
+    color: lightblue;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+header a:hover{
+    color: white;
+}
+
+nav{
+    grid-column: span 6;
+}
+
+nav ul{
+    list-style-type: none;
+    background-image: linear-gradient(to bottom, #0066ff, #0f52e9, #173ed4, #1a29be, #1b0ea8);
+    margin: 0;
+    padding: 0;
+    border-bottom: 5px solid blue;
+}
+
+nav li{
+    width: 235px;
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a{
+    display: block;
+    padding: 15px 20px;
+    border-right: 5px solid blue;
+    background-image: linear-gradient(to bottom, #0066ff, #0f52e9, #173ed4, #1a29be, #1b0ea8);
+    color: lightblue;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav li a:hover{
+    color: white;
+}
+
+.acno{
+    grid-column: span 2;
+    padding: 25px;
+    background-color: lightblue;
+}
+
+h2{
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    border-bottom: 3px solid blue;
+}
+
+.acno p{
+    font-weight: bold;
+    text-align: justify;
+}
+
+main{
+    grid-column: span 4;
+    padding: 20px 25px;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.bku{
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    border: 3px solid blue;
+}
+
+.uo{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border: 3px solid blue;
+}
+
+.Eve{
+    grid-column: span 2;
+    margin: 0 25px;
+}
+
+.Eve img{
+    width: 280px;
+}
+
+.Way{
+    grid-column: span 2;
+    margin: 0 20px;
+}
+
+.Way img{
+    width: 280px;
+}
+
+.Joy{
+    grid-column: span 2;
+    margin: 0 25px;
+}
+
+.Joy img{
+    width: 280px;
+}
+
+footer{
+    grid-column: span 6;
+    background-color: red;
+    padding: 5px;
+    border-top: 5px solid blue;
+}
