@@ -1,0 +1,150 @@
+html{
+  background-image: url(The\ Blurred\ DAW.jpg);
+}
+
+#wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    padding: 24px;
+    background-color: #a5a5a5;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-column-gap: 24px;
+  }
+  
+  h1{
+    grid-column: span 6;
+    font-family: 'PT Serif', cursive;
+    font-style: italic;
+    font-size: 100px;
+    text-align: center;
+    background-image: url(perfectlypurple.jpg);
+    padding: 96px 1em 36px 1em;
+    line-height: 180px;
+    margin: 0;
+    border-radius: 180px;
+  }
+  
+  h1 a{
+    display: block;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  nav{
+    grid-column: span 6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li{
+    list-style-type: none;
+    text-align: center;
+    margin: 48px auto;
+  }
+  
+  nav li a{
+    display: block;
+    text-decoration: none;
+    color: #a5a5a5;
+    background-color: #582911;
+    font-family: 'PT Serif', cursive;
+    font-size: 74px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 18px;
+    border-radius: 36px;
+    transition: background-color 1.0s, color 0.5s;
+  }
+  
+  nav li a:hover{
+    background-color: #4a230f;
+    color: #565656;
+  }
+  
+  #mm{
+    font-size: 48px;
+    padding: 6px;
+  }
+  
+  #page2{
+    color:#565656;
+    background-color: #4a230f;
+  }
+  
+  .page3{
+    background-color: #4a230f;
+    color: #565656;
+  }
+  
+  #page4{
+    color: #565656;
+    background-color: #4a230f;
+  }
+  
+  footer{
+    padding: 60px 1em 24px 1000px;
+    grid-column: span 12;
+  }
+  
+  footer a{
+    color: #000000;
+    font-size: 72px;
+    display: block;
+    transition: color 0.5s;
+  }
+  
+  footer a:hover{
+    color: #bf61df;
+  }
+  
+  section{
+    grid-column: span 3;
+    display: block;
+  }
+  
+  section p{
+    font-family: Cambria, Georgia, Times;
+    font-size: 36px;
+    text-align: center;
+    background-image: url(perfectlypurple.jpg);
+    border-radius: 15%;
+    border-bottom: 5px solid #4c4c4c;
+    margin-left: 10px;
+    padding: 28px 1em;
+  }
+  
+  section a{
+    color: black;
+    text-decoration: none;
+  }
+
+.about{
+  grid-column: span 6;
+  text-align: center;
+  background-image: url(perfectlypurple.jpg);
+  border-radius: 15%;
+  border-bottom: 5px solid #4c4c4c;
+  margin: 32px 10px;
+  padding: 28px 1em;
+}
+
+.void{
+  all: revert;
+}
+
+  section h2{
+    font-family: 'PT Serif', cursive;
+    border-bottom: 2px solid #4c4c4c;
+  }
+  
+  #heel{
+    font-size: 28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  #SNr{
+    font-size: 34px;
+    padding-bottom: 36px;
+  }
